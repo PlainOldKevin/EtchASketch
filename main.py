@@ -10,11 +10,11 @@ screen.listen()
 
 # Forwards function
 def move_forward():
-    cursor.forward(5)
+    cursor.forward(10)
 
 # Backwards function
 def move_backward():
-    cursor.backward(5)
+    cursor.backward(10)
 
 # Left turn function
 def turn_left():
