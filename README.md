@@ -8,4 +8,4 @@ List of controls:
 * Down: Move the cursor backwards and draw
 * Right: Tilt the cursor clockwise
 * Left: Tilt the cursor counter-clockwise
-* C: Clear the screen
+* C: Clear the screen and reset cursor to origin
