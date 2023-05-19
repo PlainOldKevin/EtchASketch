@@ -6,6 +6,6 @@ List of controls:
 
 * W: Move the cursor forward and draw
 * S: Move the cursor backwards and draw
-* A: Tilt the cursor counter-clockwise
-* D: Tilt the cursor clockwise
+* A: Tilt the cursor clockwise
+* D: Tilt the cursor counter-clockwise
 * C: Clear the screen

@@ -16,19 +16,19 @@ def move_forward():
 def move_backward():
     cursor.backward(5)
 
-# Clockwise-turn function
-def turn_clockwise():
-    cursor.setheading(cursor.heading() + 5)
+# Left turn function
+def turn_left():
+    cursor.left(10)
 
-# Counter-clockwise function
-def turn_counterclockwise():
-    cursor.setheading(cursor.heading() - 5)
+# Right turn function
+def turn_right():
+    cursor.right(10)
 
 # Keypress functions
-screen.onkeypress(move_forward, "w")
-screen.onkeypress(move_backward, "s")
-screen.onkeypress(turn_clockwise, "d")
-screen.onkeypress(turn_counterclockwise, "a")
+screen.onkey(move_forward, "w")
+screen.onkey(move_backward, "s")
+screen.onkey(turn_left, "d")
+screen.onkey(turn_right, "a")
 
 # Make screen exit on click 
 screen.exitonclick()
