@@ -5,6 +5,9 @@ from turtle import Turtle, Screen
 cursor = Turtle()
 screen = Screen()
 
+# Screen title
+screen.title("Etch-A-Sketch")
+
 # Make screen listen
 screen.listen()
 
@@ -30,10 +33,10 @@ def clear():
     cursor.reset()
 
 # Keypress functions
-screen.onkey(move_forward, "w")
-screen.onkey(move_backward, "s")
-screen.onkey(turn_left, "d")
-screen.onkey(turn_right, "a")
+screen.onkeypress(move_forward, "Up")
+screen.onkeypress(move_backward, "Down")
+screen.onkey(turn_left, "Left")
+screen.onkey(turn_right, "Right")
 screen.onkey(clear, "c" )
 
 # Make screen exit on click 

@@ -4,8 +4,8 @@ An etch-a-sketch drawing program written in Python that utilizes the Turtle grap
 ## Controls
 List of controls:
 
-* W: Move the cursor forward and draw
-* S: Move the cursor backwards and draw
-* A: Tilt the cursor right
-* D: Tilt the cursor left
+* Up: Move the cursor forward and draw
+* Down: Move the cursor backwards and draw
+* Right: Tilt the cursor clockwise
+* Left: Tilt the cursor counter-clockwise
 * C: Clear the screen
