@@ -24,11 +24,17 @@ def turn_left():
 def turn_right():
     cursor.right(10)
 
+# Clear screen function
+def clear():
+    cursor.clear()
+    cursor.reset()
+
 # Keypress functions
 screen.onkey(move_forward, "w")
 screen.onkey(move_backward, "s")
 screen.onkey(turn_left, "d")
 screen.onkey(turn_right, "a")
+screen.onkey(clear, "c" )
 
 # Make screen exit on click 
 screen.exitonclick()
